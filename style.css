@@ -1,8 +1,37 @@
+/*
+#3674B5	
+#F5F0CD	
+#578FCA	
+#FADA7A
+*/
+
+
 body {
     background-color: #F5F0CD;
+    margin: 0px;
+}
+
+header {
+    background-color: #3674B5;
+}
+
+nav, nav a{
+    color: #F5F0CD; 
 }
 
 #logo {
     height: 50px;
     width: 50px;
+}
+
+#Moments_into_memories {
+    background-color: #578FCA;
+}
+
+#About_me {
+    background-color: #F5F0CD;
+}
+
+#Review {
+    background-color: #3674B5;
 }

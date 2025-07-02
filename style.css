@@ -8,24 +8,41 @@
 
 body {
     background-color: #F5F0CD;
-    margin: 0px;
+    margin: 0;
+    display: grid;
 }
 
 header {
     background-color: #3674B5;
 }
 
+h1 {
+    font-family: "Playfair Display";
+}
+
+p {
+    font-family: "Lato";
+}
+
 nav, nav a{
     color: #F5F0CD; 
 }
 
+div {
+    display: grid;
+    width: 100%;
+    padding: 30px;
+}
+
 #logo {
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
 }
 
 #Moments_into_memories {
     background-color: #578FCA;
+    grid-template-columns: 1fr 1fr;
+
 }
 
 #About_me {
@@ -33,5 +50,21 @@ nav, nav a{
 }
 
 #Review {
+    background-color: #3674B5;
+    padding: 30px;
+}
+
+#Portfolio {
+    background-color: #578FCA;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+#Portfolio img {
+    width: 300px
+}
+
+#Contact {
     background-color: #3674B5;
 }

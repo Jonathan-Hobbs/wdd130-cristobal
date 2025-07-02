@@ -13,7 +13,10 @@ body {
 }
 
 header {
+    display: grid;
     background-color: #3674B5;
+    width: auto;
+    grid-template-columns: 1fr 1fr;
 }
 
 h1 {
@@ -26,6 +29,8 @@ p {
 
 nav, nav a{
     color: #F5F0CD; 
+    font-family: "Lato";
+    text-decoration: none;
 }
 
 div {
@@ -39,32 +44,56 @@ div {
     width: 100px;
 }
 
-#Moments_into_memories {
+#Moments {
     background-color: #578FCA;
+    color:#F5F0CD;
     grid-template-columns: 1fr 1fr;
+    gap: 20px
+}
 
+#Moments_left {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#Moments_right {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#Moments img {
+    width: 50%;
 }
 
 #About_me {
     background-color: #F5F0CD;
+    color: #578FCA;
 }
 
 #Review {
     background-color: #3674B5;
     padding: 30px;
+    color: #F5F0CD;
 }
 
 #Portfolio {
     background-color: #578FCA;
+    color:#F5F0CD;
+}
+
+#Portfolio_photos {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 30px;
 }
 
 #Portfolio img {
-    width: 300px
+    width: 300px;
 }
 
 #Contact {
     background-color: #3674B5;
+    color:#F5F0CD;
 }

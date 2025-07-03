@@ -45,7 +45,9 @@ div {
 }
 
 #Moments {
-    background-color: #578FCA;
+    background-image: url("/images/sunset_temple.jpg");
+    background-size: cover;
+    background-position: center; 
     color:#F5F0CD;
     grid-template-columns: 1fr 1fr;
     gap: 20px

@@ -114,6 +114,27 @@ div {
     gap: 20px;
 }
 
+form {
+    font-family: "Lato";
+    padding: 0px;
+}
+
+form input {
+    border: 0px;
+}
+
+.subsection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 0px;
+}
+
+#message {
+    grid-column-start: span 2;
+}
+
+
 footer img {
     height: 100px;
     width: 100px;

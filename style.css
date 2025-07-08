@@ -110,6 +110,8 @@ div {
 #Contact {
     background-color: #3674B5;
     color:#F5F0CD;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
 
 footer img {

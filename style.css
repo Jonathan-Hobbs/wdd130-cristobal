@@ -56,7 +56,7 @@ div {
     background-size: cover;
     background-position: center; 
     color:#F5F0CD;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     gap: 20px
 }
 

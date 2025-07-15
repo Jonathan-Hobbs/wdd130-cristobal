@@ -19,10 +19,10 @@ Sub Page - Portfolio:
 Nathan
 
 Portfolio
-Review
+Contact
 
 Sub page - About:
 Andres
 
 About Me
-Contact
+Review
